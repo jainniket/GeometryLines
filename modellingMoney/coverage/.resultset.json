@@ -1,0 +1,35 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/niketjain/Desktop/rubyprojects/modellingMoney/lib/currency.rb": [
+        1
+      ],
+      "/Users/niketjain/Desktop/rubyprojects/modellingMoney/lib/currency/money.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        5,
+        5,
+        null,
+        null,
+        1,
+        5,
+        2,
+        2,
+        null,
+        5,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1422843600
+  }
+}

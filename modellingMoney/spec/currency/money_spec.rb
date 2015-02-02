@@ -19,7 +19,7 @@ describe "money" do
 	end
 
 	it "adds money" do
-		expect(combination1+combination2).to eq(17.50)
+		expect(combination1.calculate_value + combination2.calculate_value).to eq(17.50)
 	end
 end
 

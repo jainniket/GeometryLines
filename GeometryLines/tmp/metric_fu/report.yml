@@ -1,0 +1,415 @@
+---
+:cane:
+  :total_violations: 45
+  :violations:
+    :line_style:
+    - :line: lib/geometry/line.rb:2
+      :description: Line contains trailing whitespace
+    - :line: lib/geometry/line.rb:2
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:3
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:4
+      :description: Line contains trailing whitespace
+    - :line: lib/geometry/line.rb:4
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:5
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:6
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:7
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:8
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:10
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:11
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:12
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:13
+      :description: Line contains trailing whitespace
+    - :line: lib/geometry/line.rb:13
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:14
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:15
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:16
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:18
+      :description: Line contains trailing whitespace
+    - :line: lib/geometry/line.rb:18
+      :description: Line contains hard tabs
+    - :line: lib/geometry/line.rb:20
+      :description: Line is >80 characters (155)
+    - :line: lib/geometry/line.rb:20
+      :description: Line contains trailing whitespace
+    - :line: lib/geometry/line.rb:20
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:14
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:15
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:16
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:17
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:18
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:20
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:21
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:22
+      :description: Line contains trailing whitespace
+    - :line: spec/geometry/line_spec.rb:22
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:23
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:24
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:26
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:27
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:28
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:29
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:30
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:32
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:33
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:34
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:35
+      :description: Line contains hard tabs
+    - :line: spec/geometry/line_spec.rb:36
+      :description: Line contains hard tabs
+    :documentation:
+    - :description: No README found
+    :comment:
+    - :line: lib/geometry/line.rb:1
+      :class_name: Line
+:churn:
+  :changes: []
+  :class_churn: []
+  :method_churn: []
+  :changed_files:
+  - modellingMoney/Gemfile
+  - modellingMoney/Gemfile.lock
+  - modellingMoney/Rakefile
+  - modellingMoney/lib/currency.rb
+  - modellingMoney/lib/currency/money.rb
+  - modellingMoney/spec/currency/money_spec.rb
+  - modellingMoney/spec/money/money_spec.rb
+  - modellingMoney/spec/spec_helper.rb
+  :changed_classes: []
+  :changed_methods: []
+:flay:
+  :total_score: '0'
+  :matches: []
+:flog:
+  :total: 40.89771560359221
+  :average: 8.179543120718442
+  :method_containers:
+  - :name: Line
+    :path: lib/geometry/line.rb
+    :total_score: 39.89771560359221
+    :highest_score: 19.69771560359221
+    :average_score: 9.974428900898053
+    :methods:
+      Line#==:
+        :operators:
+          :branch: 4.4
+          :class: 1.4000000000000001
+          :==: 6.200000000000001
+          :point1: 5.800000000000001
+          :point2: 5.800000000000001
+        :score: 19.69771560359221
+        :path: lib/geometry/line.rb:19
+      Line#calculateLength:
+        :operators:
+          :[]: 7.199999999999999
+          :-: 3.1999999999999997
+          :lit_fixnum: 1.7999999999999998
+          :**: 3.8
+          :+: 1.2
+        :score: 17.2
+        :path: lib/geometry/line.rb:14
+      Line#initialize:
+        :operators:
+          :assignment: 2.0
+        :score: 2.0
+        :path: lib/geometry/line.rb:5
+      Line#none:
+        :operators:
+          :attr_reader: 1.0
+        :score: 1.0
+        :path: 
+  - :name: main
+    :path: ''
+    :total_score: 1.0
+    :highest_score: 1.0
+    :average_score: 1.0
+    :methods:
+      main#none:
+        :operators:
+          :require: 1.0
+        :score: 1.0
+        :path: 
+:saikuro:
+  :files:
+  - :classes:
+    - :class_name: Line
+      :complexity: 4
+      :lines: 22
+      :methods:
+      - :name: Line#==
+        :complexity: 1
+        :lines: 2
+      - :name: Line#calculateLength
+        :complexity: 1
+        :lines: 2
+      - :name: Line#xcord1
+        :complexity: 1
+        :lines: 2
+      - :name: Line#initialize
+        :complexity: 1
+        :lines: 3
+    :filename: lib/geometry/line.rb
+  :classes:
+  - :name: Line
+    :complexity: 4
+    :lines: 22
+    :defs:
+    - :name: Line#initialize
+      :complexity: 1
+      :lines: 3
+    - :name: Line#xcord1
+      :complexity: 1
+      :lines: 2
+    - :name: Line#calculateLength
+      :complexity: 1
+      :lines: 2
+    - :name: Line#==
+      :complexity: 1
+      :lines: 2
+  :methods:
+  - :name: Line#==
+    :complexity: 1
+    :lines: 2
+  - :name: Line#calculateLength
+    :complexity: 1
+    :lines: 2
+  - :name: Line#xcord1
+    :complexity: 1
+    :lines: 2
+  - :name: Line#initialize
+    :complexity: 1
+    :lines: 3
+:reek:
+  :matches:
+  - :file_path: lib/geometry/line.rb
+    :code_smells:
+    - :method: Line
+      :message: has no descriptive comment
+      :type: IrresponsibleModule
+    - :method: Line
+      :message: has the variable name '@point1'
+      :type: UncommunicativeVariableName
+    - :method: Line
+      :message: has the variable name '@point2'
+      :type: UncommunicativeVariableName
+    - :method: Line#==
+      :message: calls otherLine.point1 2 times
+      :type: DuplicateMethodCall
+    - :method: Line#==
+      :message: calls otherLine.point2 2 times
+      :type: DuplicateMethodCall
+    - :method: Line#==
+      :message: has the parameter name 'otherLine'
+      :type: UncommunicativeParameterName
+    - :method: Line#==
+      :message: refers to otherLine more than self
+      :type: FeatureEnvy
+    - :method: Line#calculateLength
+      :message: has the name 'calculateLength'
+      :type: UncommunicativeMethodName
+    - :method: Line#initialize
+      :message: has the parameter name 'point1'
+      :type: UncommunicativeParameterName
+    - :method: Line#initialize
+      :message: has the parameter name 'point2'
+      :type: UncommunicativeParameterName
+    - :method: Line#xcord1
+      :message: has the name 'xcord1'
+      :type: UncommunicativeMethodName
+:roodi:
+  :total:
+  - Checked 2 files
+  :problems:
+  - :file: lib/geometry/line.rb
+    :line: '14'
+    :problem: Method name "calculateLength" should match pattern /^[_a-z<>=\[\]|+-\/\*`]+[_a-z0-9_<>=~@\[\]]*[=!\?]?$/
+:stats:
+  :codeLOC: 17
+  :testLOC: 30
+  :code_to_test_ratio: 1.8
+  :lines:
+  - :name: Libraries
+    :lines: 24
+    :loc: 17
+    :classes: 1
+    :methods: 3
+    :methods_per_class: 3
+    :loc_per_method: 3
+  - :name: Geometry specs
+    :lines: 38
+    :loc: 30
+    :classes: 0
+    :methods: 0
+    :methods_per_class: 0
+    :loc_per_method: 0
+  - :name: Total
+    :lines: 62
+    :loc: 47
+    :classes: 1
+    :methods: 3
+    :methods_per_class: 3
+    :loc_per_method: 13
+:hotspots:
+  files:
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/geometry/line.rb:19
+      file_name: lib/geometry/line.rb
+      line_number: '19'
+      hash_key: '["lib/geometry/line.rb:19", nil, nil]'
+    details:
+      flog: complexity is 19.7
+      saikuro: complexity is 1.0
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/geometry/line.rb:14
+      file_name: lib/geometry/line.rb
+      line_number: '14'
+      hash_key: '["lib/geometry/line.rb:14", nil, nil]'
+    details:
+      flog: complexity is 17.2
+      saikuro: complexity is 1.0
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/geometry/line.rb:5
+      file_name: lib/geometry/line.rb
+      line_number: '5'
+      hash_key: '["lib/geometry/line.rb:5", nil, nil]'
+    details:
+      flog: complexity is 2.0
+      saikuro: complexity is 1.0
+  - location:
+      class_name: 
+      method_name: 
+      file_path: lib/geometry/line.rb
+      file_name: lib/geometry/line.rb
+      line_number: 
+      hash_key: '["lib/geometry/line.rb", nil, nil]'
+    details:
+      saikuro: complexity is 1.0
+      reek: found 11 code smells
+      roodi: found 1 design problems
+  classes:
+  - location:
+      class_name: Line
+      method_name: 
+      file_path: lib/geometry/line.rb:19
+      file_name: lib/geometry/line.rb
+      line_number: '19'
+      hash_key: '["lib/geometry/line.rb:19", "Line", nil]'
+    details:
+      flog: average complexity is 10.0
+      saikuro: average complexity is 1.0
+      reek: found 11 code smells
+  - location:
+      class_name: main
+      method_name: 
+      file_path: 
+      file_name: 
+      line_number: 
+      hash_key: '[nil, "main", nil]'
+    details:
+      flog: complexity is 1.0
+  methods:
+  - location:
+      class_name: Line
+      method_name: Line#==
+      file_path: lib/geometry/line.rb:19
+      file_name: lib/geometry/line.rb
+      line_number: '19'
+      hash_key: '["lib/geometry/line.rb:19", "Line", "Line#=="]'
+      simple_method_name: '#=='
+    details:
+      flog: complexity is 19.7
+      saikuro: complexity is 1.0
+      reek: found 4 code smells
+  - location:
+      class_name: Line
+      method_name: Line#calculateLength
+      file_path: lib/geometry/line.rb:14
+      file_name: lib/geometry/line.rb
+      line_number: '14'
+      hash_key: '["lib/geometry/line.rb:14", "Line", "Line#calculateLength"]'
+      simple_method_name: '#calculateLength'
+    details:
+      flog: complexity is 17.2
+      saikuro: complexity is 1.0
+      reek: found 1 code smells
+  - location:
+      class_name: Line
+      method_name: Line#initialize
+      file_path: lib/geometry/line.rb:5
+      file_name: lib/geometry/line.rb
+      line_number: '5'
+      hash_key: '["lib/geometry/line.rb:5", "Line", "Line#initialize"]'
+      simple_method_name: '#initialize'
+    details:
+      flog: complexity is 2.0
+      saikuro: complexity is 1.0
+      reek: found 2 code smells
+  - location:
+      class_name: Line
+      method_name: Line#none
+      file_path: 
+      file_name: 
+      line_number: 
+      hash_key: '[nil, "Line", "Line#none"]'
+      simple_method_name: '#none'
+    details:
+      flog: complexity is 1.0
+  - location:
+      class_name: main
+      method_name: main#none
+      file_path: 
+      file_name: 
+      line_number: 
+      hash_key: '[nil, "main", "main#none"]'
+      simple_method_name: '#none'
+    details:
+      flog: complexity is 1.0
+  - location:
+      class_name: Line
+      method_name: Line#xcord1
+      file_path: lib/geometry/line.rb
+      file_name: lib/geometry/line.rb
+      line_number: 
+      hash_key: '["lib/geometry/line.rb", "Line", "Line#xcord1"]'
+      simple_method_name: '#xcord1'
+    details:
+      saikuro: complexity is 1.0
+      reek: found 1 code smells
