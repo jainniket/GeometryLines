@@ -1,0 +1,53 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/niketjain/Desktop/rubyprojects/Calculator/lib/Calculate.rb": [
+        1,
+        1
+      ],
+      "/Users/niketjain/Desktop/rubyprojects/Calculator/lib/calculate/calc.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/niketjain/Desktop/rubyprojects/Calculator/lib/calculate/parser.rb": [
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1422950233
+  }
+}
